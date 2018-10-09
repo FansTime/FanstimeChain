@@ -1,7 +1,7 @@
 # Fanstime Chain
 
 # 使用方法
-##启动私有链步骤
+## 启动私有链步骤
 1. 进入项目根目录，执行gradlew runPrivate即可
 
 ## 添加wallet并分配balance步骤
