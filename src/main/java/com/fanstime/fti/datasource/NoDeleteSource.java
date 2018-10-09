@@ -1,0 +1,35 @@
+package com.fanstime.fti.datasource;
+
+/**
+ * Just ignores deletes from the backing Source
+ * Normally used for testing for Trie backing Sources to
+ * not delete older states
+ *
+ * Created by Jay Nicolas on 03.04.2018.
+ */
+public class NoDeleteSource<Key, Value> extends AbstractChainedSource<Key, Value, Key, Value> {
+
+    public NoDeleteSource(Source<Key, Value> src) {
+        super(src);
+        setFlushSource(true);
+    }
+
+    @Override
+    public void delete(Key key) {
+    }
+
+    @Override
+    public void put(Key key, Value val) {
+        if (val != null) getSource().put(key, val);
+    }
+
+    @Override
+    public Value get(Key key) {
+        return getSource().get(key);
+    }
+
+    @Override
+    protected boolean flushImpl() {
+        return false;
+    }
+}

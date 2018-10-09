@@ -1,0 +1,10 @@
+/**
+	Bind a bsh object into a particular namespace and interpreter
+*/
+import com.blockchain.bsh.This;
+import com.blockchain.bsh.NameSpace;
+
+bind( com.blockchain.bsh.This ths, com.blockchain.bsh.NameSpace namespace ) {
+	This.bind( ths, namespace, this.interpreter );
+}
+

@@ -1,0 +1,12 @@
+{
+  "name": "fanstime-example",
+  "version": "0.0.1",
+  "description": "Example use of fanstime blockchain",
+  "author": "Rui Wang",
+  "license": "MIT",
+  "devDependencies": {
+    "bignumber.js": "^6.0.0",
+    "ftijs-tx": "^1.3.4",
+    "web3": "^1.0.0-beta"
+  }
+}
