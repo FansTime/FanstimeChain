@@ -19,5 +19,5 @@ FansTime Chain是FansTime 根据粉丝经济垂直生态的特点，利用Dpos+P
 # 联系我们
 通过 [Telegram](https://t.me/fanstimeofficial)联系我们
 
-# License
+# 开源协议
 Fanstime Chain 项目基于 [MIT 协议](LICENSE)进行开源。
