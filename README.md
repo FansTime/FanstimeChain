@@ -8,12 +8,12 @@ By imbedding feature modules in vertical domain of FansTime public chain, the on
 
 # How To
 ## Start private chain step
-1. Go to the project root directory and execute 
-` ./gradlew runPrivate
+1. Go to the project root directory and execute  
+> ./gradlew runPrivate
 ### Add a wallet and assign balance steps
 1. Start the private chain
 2. run
-> Curl -X POST --data'{"jsonrpc": "2.0", "method": "personal_newAccount", "params":["passphrase"], "id":1}'${host}
+> curl -X POST --data'{"jsonrpc": "2.0", "method": "personal_newAccount", "params":["passphrase"], "id":1}'${host}
 3. Stop private chain
 4. Record the address returned in the previous step and modify the genesis-private.json file to add "youraddress" to the alloc attribute: {"balance": "yourbalance"}
 5. Clear the FTI database, the database address is the FTI folder in the user directory.
