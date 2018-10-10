@@ -15,3 +15,9 @@ FansTime Chain是FansTime 根据粉丝经济垂直生态的特点，利用Dpos+P
 4. 记录上一步返回的地址，并修改genesis-private.json文件，在alloc属性中添加 "youraddress": { "balance": "yourbalance" }
 5. 清除fti数据库，数据库地址为用户目录下fti文件夹
 6. 重启私有链即可
+
+# 联系我们
+通过 [Telegram](https://t.me/fanstimeofficial)联系我们
+
+# License
+Fanstime Chain 项目基于 [MIT 协议](LICENSE)进行开源。
