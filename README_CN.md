@@ -3,7 +3,7 @@ FansTime Chain是FansTime 根据粉丝经济垂直生态的特点，利用Dpos+P
 * 项目主页：https://www.fanstime.org
 * 项目白皮书：https://www.fanstime.org/FansTime-tc.pdf
 
-
+---
 # 使用方法
 ## 启动私有链步骤
 1. 进入项目根目录，执行gradlew runPrivate即可
@@ -16,8 +16,9 @@ FansTime Chain是FansTime 根据粉丝经济垂直生态的特点，利用Dpos+P
 5. 清除fti数据库，数据库地址为用户目录下fti文件夹
 6. 重启私有链即可
 
+---
 # 联系我们
-通过 [Telegram](https://t.me/fanstimeofficial)联系我们
+可通过 [Telegram](https://t.me/fanstimeglobal) 与联系我们。
 
 # 开源协议
 Fanstime Chain 项目基于 [MIT 协议](LICENSE)进行开源。
