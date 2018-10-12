@@ -21,7 +21,7 @@ By imbedding feature modules in vertical domain of FansTime public chain, the on
 6. Restart the private chain
 
 # Contact
-Chat with us via [Telegram](https://t.me/fanstimeofficial)
+Chat with us via [Telegram](https://t.me/fanstimeglobal)
 
 # License
 FanstimeChain is released under the [MIT license](LICENSE).
